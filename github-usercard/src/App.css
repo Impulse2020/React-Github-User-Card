@@ -43,10 +43,29 @@ body{
   width:100%;
   height:auto;
 }
-
+img{
+  width:240px;
+  height:auto;
+}
 
 h2{
   text-align: center;
   color:white;
   -webkit-text-stroke: #282c34 1px;
+}
+.card{
+  display:flex;
+  flex-direction:column ;
+  justify-content: center;
+  text-align: center;
+  width:25%;
+  height:auto;
+}
+.card img{
+  width:80%;
+  align-self: center;
+}
+.card button{
+  width:80%;
+  align-self:center;
 }
